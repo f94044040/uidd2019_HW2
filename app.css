@@ -1,0 +1,24 @@
+<style>
+body {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+div {
+  margin: 0px auto;
+  max-width: 780px;
+  width: expression(document.body.clientWidth > 780? "780px": "auto" );
+}
+
+img {  
+   max-height: 100%;  
+   max-width: 100%; 
+   width: auto;
+   height: auto;
+   margin: auto;
+ }
+ .picture{
+   width: 250px;
+ }
+ </style>
